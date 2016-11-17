@@ -4,7 +4,5 @@ public class Test {
 
         System.out.println("vi bögar har fixat det!!");
 
-
-
     }
 }
