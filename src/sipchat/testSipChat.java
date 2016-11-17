@@ -6,12 +6,8 @@ public class testSipChat {
 
         SipChat chat = new SipChat();
 
-        chat.sendInvite("invite");
-
-
-
-
-
+        chat.sendInvite("INVITE");
+        chat.sendAck("ack");
 
 
     }

@@ -58,12 +58,24 @@ public class SipChat {
     }
 
 
-    public SipState getWaiting() { return waiting;}
+    public SipState getWaiting() {
+        System.out.println("We are in Waiting state");
+        return waiting;
+    }
 
-    public SipState getRespondingCall() { return respondeCall;}
+    public SipState getRespondingCall() {
+        System.out.println("We are in RespondCall state");
+        return respondeCall;
+    }
 
-    public SipState getTryCalling() { return tryCall;}
+    public SipState getTryCalling() {
+        System.out.println("We are in TryCall state");
+        return tryCall;
+    }
 
-    public SipState getTalking() {return talking;}
+    public SipState getTalking() {
+        System.out.println("We are in Talking state");
+        return talking;
+    }
 
 }

@@ -38,6 +38,9 @@ public class TryCall implements SipState {
     @Override
     public void sendAck(String ack) {
 
+        if(ack.equalsIgnoreCase("ack")) {
+            sipChat.setSipState(sipChat.getTalking());
+        }
     }
 
     @Override
